@@ -35,4 +35,9 @@ return [
         ],
     ],
 
+    'xano' => [
+        'base_url' => env('XANO_API_BASE_URL'),
+        'key' => env('XANO_API_KEY'),
+    ],
+
 ];
