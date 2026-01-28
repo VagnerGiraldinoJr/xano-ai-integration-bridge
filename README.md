@@ -1,9 +1,3 @@
----
-
-### 1. Atualizar o `README.md` no VS Code
-
-Substitua o conteúdo do seu arquivo `README.md` por este modelo profissional:
-
 ```markdown
 # Xano AI Integration Bridge 🚀
 
