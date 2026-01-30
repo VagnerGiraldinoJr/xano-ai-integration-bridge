@@ -38,6 +38,10 @@ return [
     'xano' => [
         'base_url' => env('XANO_API_BASE_URL'),
         'key' => env('XANO_API_KEY'),
+        'timeout' => env('XANO_API_TIMEOUT', 30), // Request timeout in seconds
+        'retry_times' => env('XANO_API_RETRY_TIMES', 3), // Number of retry attempts
+        'retry_delay' => env('XANO_API_RETRY_DELAY', 100), // Delay between retries in milliseconds
+        'cache_ttl' => env('XANO_API_CACHE_TTL', 3600), // Cache TTL in seconds (1 hour)
     ],
 
 ];
